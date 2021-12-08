@@ -1,0 +1,38 @@
+/*selector de etiqueta*/
+body{
+    background-color: dodgerblue;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.white{
+    background-color: seashell;
+}
+
+#yellow{
+    background-color: yellow;
+}
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_logo{
+    width: 200px;
+}
+
+.navbar_links{
+    width: 400px;
+    display: flex;
+}
+
+.links li{
+    display: flex;
+    
+}
+
+
