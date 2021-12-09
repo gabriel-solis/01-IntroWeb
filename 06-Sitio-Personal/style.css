@@ -1,9 +1,17 @@
+
+
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.text-space{
+    margin-bottom: 6px;
+}
+
+/*Navbar*/
 .navbar{
     
     height: 80px;
@@ -33,6 +41,69 @@
 .navbar__links a{
     text-decoration: none;
     font-family: 'Readex Pro', sans-serif;
-    color: #4b5ebe;
-    
+    color: #4b5ebe;   
+}
+/*HERO*/
+.hero{
+    height: 450px;
+    width: 1200px;
+    display: flex;
+}
+
+.hero__photo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__photo img{
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.hero__text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.hero__text h2{
+    color: #8388a1;
+    margin-bottom: 12px;
+}
+
+.hero__text h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #6dafdb;
+    font-size: 2em;
+    font-weight: 500; 
+}
+
+.title-dark{
+    color: rgb(158, 168, 218);
+    font-size: 2em;
+    font-weight: 500; 
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__text button{
+    background-color: #6dafdb;;
+    height: 3em;
+    color: white;
+    width: 25%;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    border: 0px solid white;
+    border-radius: 5px;
 }
